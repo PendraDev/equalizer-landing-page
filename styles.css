@@ -12,3 +12,9 @@
     --white: hsl(20,33%,98%);
     --darkblue: hsl(244,23%,12%);
 }
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
