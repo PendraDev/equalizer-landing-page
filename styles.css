@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+:root {
+    --aquamarine: hsl(177,68%,64%);
+    --orange: hsl(12,94%,65%);
+    --yellow: hsl(33,100%,70%);
+    --white: hsl(20,33%,98%);
+    --darkblue: hsl(244,23%,12%);
+}
