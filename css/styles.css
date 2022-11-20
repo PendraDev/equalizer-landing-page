@@ -25,4 +25,42 @@ html {
     font-size: 62.5%;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
+body {
+    width: 100%;
+    background-image: url('../assets/bg-main-mobile.png');
+    background-position: 30px -200px;
+    background-size: 600px 700px;
+    background-repeat: no-repeat;
+}
+.main-container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 425px;
+    height: 600px;
+}
+.main-article--container {
+    width: 90%;
+    margin: 0 auto;
+}
+.main-article--container h1 {
+    padding-top: 40px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--darkblue);
+}
+.main-article--container h2 {
+    margin-top: 60px;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    color: var(--darkblue);
+}
+.main-article--container p {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.45px;
+    color: var(--darkblue);
+}
