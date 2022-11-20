@@ -64,3 +64,121 @@ body {
     letter-spacing: 0.45px;
     color: var(--darkblue);
 }
+.section__container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 425px;
+    height: 400px;
+    background-image: url('../assets/bg-pattern-2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: var(--darkblue);
+    border-radius: 10px;
+}
+.section__image-container {
+    width: 70%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.section__image-container img {
+    transform: translateY(-90px);
+    width: 100%;
+    height: 100%;
+}
+.article__container {
+    transform: translateY(-50px);
+    width: 100%;
+    height: 546px;
+    background-color: var(--orange);
+    border-radius: 10px;
+}
+.article__letters-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.article__letters-container h2 {
+    padding-top: 40px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--white);
+}
+.article__letters-container p {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--white);
+}
+.article__letters-container span {
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7rem;
+    color: var(--white);
+}
+.article__letters--price {
+    display: flex;
+}
+.article__letters-container .month {
+    margin-left: 15px;
+    padding-top: 10px;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0.2px;
+    color: var(--white);
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn-container .btn {
+    width: 100%;
+    height: 61px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+}
+.btn-container .btn--icon-ios {
+    width: 35px;
+    height: 20px;
+    margin-top: 0;
+    background-image: url('../assets/icon-apple.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-container .btn--ios {
+    margin-top: 32px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    letter-spacing: 0.18px;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+.btn-container .btn--icon-android {
+    margin-top: 0;
+    width: 35px;
+    height: 20px;
+    background-image: url('../assets/icon-android.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-container .btn--android {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    letter-spacing: 0.18px;
+    background-color: var(--white);
+    color: var(--darkblue);
+}
+footer {
+    width: 100%;
+    height: 450px;
+}
