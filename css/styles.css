@@ -1,10 +1,12 @@
-* {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    margin: 0;
-    padding: 0;
-    /*outline: 1px solid red;*/
-}
+/*
+Covention
+1. Position
+2. Box-model
+3. Typography
+4. Visuals
+5. Others - Miscellaneous
+*/ 
+
 :root {
     --aquamarine: hsl(177,68%,64%);
     --orange: hsl(12,94%,65%);
@@ -12,9 +14,15 @@
     --white: hsl(20,33%,98%);
     --darkblue: hsl(244,23%,12%);
 }
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
-
-body {
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+html {
+    font-size: 62.5%;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
