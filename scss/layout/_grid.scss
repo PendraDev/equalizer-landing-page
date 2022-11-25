@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+
+    &__main {
+
+    }
+    &__section {
+
+    }
+    &__footer {
+
+    }
+}
