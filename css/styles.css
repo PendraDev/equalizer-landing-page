@@ -5,7 +5,7 @@ Covention
 3. Typography
 4. Visuals
 5. Others - Miscellaneous
-*/ 
+
 
 :root {
     --aquamarine: hsl(177,68%,64%);
@@ -19,7 +19,7 @@ Covention
     font-size: 62.5%;
     margin: 0;
     padding: 0;
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 html {
     font-size: 62.5%;
@@ -225,3 +225,4 @@ footer {
 .figure-main__container--imgs img:nth-child(2){
     margin: 0 15px;
 }
+*/ 
